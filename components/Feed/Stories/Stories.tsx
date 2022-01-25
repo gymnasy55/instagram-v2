@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import faker from '@faker-js/faker';
-import { Story } from "./Stories/Story";
+import { Story } from "./Story/Story";
 
 type Suggestion = {
   id: number;
@@ -41,7 +41,7 @@ export const Stories: React.FC = () => {
   }, []);
 
   return (
-    <div className='flex space-x-2 p-6 bg-white mt-8 border-gray-200 border rounded-sm overflow-x-scroll scrollbar-thin scrollbar-thumb-black'>
+    <div className='flex space-x-2 p-6 bg-white mt-8 border-gray-200 border rounded-sm overflow-x-scroll scrollbar-thin scrollbar-thumb-gray-200'>
       {suggestions.map(({id, avatar, username}) => (
         <Story key={id} img={avatar} username={username} />
       ))}

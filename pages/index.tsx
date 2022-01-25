@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import { Header } from "../components/Header";
-import { Feed } from "../components/Feed";
+import { Header } from "../components/Header/Header";
+import { Feed } from "../components/Feed/Feed";
 
 export default function Home() {
   return (
