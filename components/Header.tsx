@@ -10,7 +10,7 @@ import {
 } from '@heroicons/react/outline';
 import { HomeIcon } from '@heroicons/react/solid';
 
-export const Header = () => {
+export const Header: React.FC = () => {
   return (
     <div className='shadow-sm border-b bg-white sticky top-0 z-50'>
       <div className='flex justify-between max-w-6xl mx-5 lg:mx-auto'>
@@ -46,7 +46,7 @@ export const Header = () => {
           <UserGroupIcon className='nav-btn' />
           <HeartIcon className='nav-btn' />
 
-          <img src={'https://shorturl.at/pxER8'} alt="avatar" className='h-10 rounded-full cursor-pointer' />
+          <img src='https://rb.gy/axtr96' alt="avatar" className='h-10 rounded-full cursor-pointer' />
         </div>
       </div>
     </div>
