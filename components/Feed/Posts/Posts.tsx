@@ -10,7 +10,7 @@ const posts = [
     caption: 'POLCRAZ IS THE BEST',
   },
   {
-    id: '123',
+    id: '1234',
     username: 'kubarievilya',
     userImage: 'https://rb.gy/axtr96',
     image: 'https://rb.gy/axtr96',
